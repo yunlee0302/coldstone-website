@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+<style>
+    .row{
+         align-items: center;}
+ 
+   .container{max-width:1800px;
+     margin: 20px auto;}
+ 
+   .nav{
+   font-size: 20px;
+   font-weight:bold;
+   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+   .nav-logo{align-items: center}
+ 
+   .photo1{padding:0px 15px;}
+   .photo1 img{width:100%; border-radius: 5%;}
+   .photo2{padding:0px 15px}
+   .photo2 img{width:100%;border-radius: 5%}
+   .social-icons{width:20px;}
+ 
+   .social{display: flex;}
+ 
+ a{font-weight: bold;}
+ h2{font-weight:bold;}
+ h3,h4{font-weight: bold;}
+ .carousel-item img{width:100%;height:800px}
+ .three{background-color:#E3242B;color: white;font-size: 30px;font-weight: bolder;}
+ 
+ .yyy{color:white ; font-size: 30px;font-weight: bolder;border-radius: 50%;}
+ 
+ .photo3{padding:0px 15px;}
+   .photo3 img{width:100%;}
+   .photo4{padding:0px 15px}
+   .photo4 img{width:100%;}
+   .photo5{padding:0px 15px}
+   .photo5 img{width:100%;;}
+   .photo6 img{border-radius: 5%;}
+   .four{background-color: #E3242B;}
+  
+
+   .social{padding-left: 15px;}
+   .ttt{color: white;}
+   .copyright{font-size: 13px;}
+
+   .coldstone04{ margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; }  
+ /* 垂直置中 */
+
+  .coldstone03{ margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; }  
+  /* 垂直置中 */
+   @media(max-width:1200px){
+ 
+    .hamburger01{
+        display: none;
+        width: 100%;
+    }
+    
+
+}
+@media(min-width:1200px){
+ 
+ .hamburger{
+     display: none;
+     width: 100%;
+ }
+}
+@media screen and (max-width:700px) {
+            .carousel-inner {
+                width: 100%;
+                height: 500px;
+                /* overflow: hidden; */
+            }
+        }
+
+        @media screen and (min-width:1500px) {
+            .carousel-inner {
+                width: 100%;
+                height: 800px;
+                /* overflow: hidden; */
+            }
+        }
+ </style>
+<body>
+    <!-- 導覽的漢堡 -->
+    <div class="hamburger">
+     
+    <nav class="navbar navbar-light" style="background-color:white">
+        <div class="container">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="d-flex">
+        <div class="nav-bar col-5">
+        
+              </div>
+                <ul class="navbar-nav align-items-center ">
+                    <li class="nav-item active">
+                     
+                      <a class="nav-link" href="https://www.coldstone.com.tw/news/news.html">最新消息 <span class="sr-only">(current)</span></a>
+                    
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://www.coldstone.com.tw/product/product.html">商品情報</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.coldstone.com.tw/store/store.html">門市查詢</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://www.coldstone.com.tw/about/about.html">關於我們</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://www.coldstone.com.tw/member/member.html">會員訊息</a>
+                      </li>
+                      
+                    <div class="row mt-3">
+                    <div class="social-icons mr-4 ">
+                      <a href="https://page.line.me/coldstone?openQrModal=true" class="">
+                      <img src="coldstone/nav-line.svg" alt="" class="">
+                    </a>
+           
+  
+                  </div>
+  
+  
+                  <div class="social-icons mr-4">
+                    <a href="https://www.facebook.com/ColdStone.tw/" class="">
+                      <img src="coldstone/nav-fb.svg" alt="" class="">
+                    </a>
+  
+                    
+  
+  
+                  </div>
+  
+                  <div class="social-icons mr-4">
+                    <a href="https://www.instagram.com/coldstonetw/?hl=zh-tw" class="">
+                    <img src="coldstone/nav-ig.png" alt="" width="20" height="20">
+                  </a>
+  
+  
+  
+                  </div>
+  
+  
+                  <div class="social-icons mr-4">
+                    <a href="https://www.coldstone.com.tw/contact.html" class="">
+                    <img src="coldstone/mail.svg" alt="" class="">
+                  </a>
+  
+  
+                  </div>
+
+
+
+                </div>
+
+             
+                <div class="social mt-4 ">
+                       
+               
+                <img src="coldstone/search.png" alt="" width="20" height="20">
+                <div class="ml-2">
+                <a> search</a>
+              </div>
+            </div>           
+                  </ul>
+        </div>
+          
+              </div>
+
+              <a href="https://www.coldstone.com.tw/"> 
+                <img class="" src="https://www.coldstone.com.tw/upload/F2E/home/header_logo.png" alt=" " width="200" height="60" >
+              </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+    </div>
+    </div>
+
+</div>
+<!-- 導覽列 -->
+    <div class="hamburger01">
+    <div class="container">
+        <class class="row ">
+         <div class="nav-logo mr-auto ml-5">
+       <a href="https://www.coldstone.com.tw/"> 
+         <img class="" src="https://www.coldstone.com.tw/upload/F2E/home/header_logo.png" alt=" " width="200" height="60" >
+       </a>
+     </div>
+       
+       <div class="nav ">
+         <a class="text-danger mr-5" href="https://www.coldstone.com.tw/news/news.html">最新消息</a>
+         <a class="text-danger mr-5" href="https://www.coldstone.com.tw/product/product.html">商品情報</a>
+         <a class="text-danger mr-5" href="https://www.coldstone.com.tw/store/store.html">門市查詢</a>
+         <a class="text-danger mr-5" href="https://www.coldstone.com.tw/about/about.html">關於我們</a>
+         <a class="text-danger " href="https://www.coldstone.com.tw/member/member.html">會員訊息</a>
+ 
+ 
+       </div>
+ 
+    
+                   <div class="social ml-4 ">
+                     <img src="coldstone/search.png" alt="" width="20" height="20">
+                     <div class="ml-2">
+                     <a> search</a>
+                   </div>
+                  
+                       
+                     <div class="social-icons mr-3 ml-3  pl-4 border-left ">
+                      
+ 
+ 
+                    </div>
+ 
+                   <div class="social-icons mr-4">
+                    <a href="https://page.line.me/coldstone?openQrModal=true" class="">
+                     <img src="coldstone/nav-line.svg" alt="" class="">
+                    </a>
+ 
+                 </div>
+ 
+ 
+                 <div class="social-icons mr-4">
+                   <a href="https://www.facebook.com/ColdStone.tw/" class="">
+                     <img src="coldstone/nav-fb.svg" alt="" class="">
+                    </a>
+                   
+ 
+ 
+                 </div>
+ 
+                 <div class="social-icons mr-4">
+                   <a href="https://www.instagram.com/coldstonetw/?hl=zh-tw" class="">
+                   <img src="coldstone/nav-ig.png" alt="" width="20" height="20">
+                  </a>
+ 
+ 
+ 
+                 </div>
+ 
+ 
+                 <div class="social-icons mr-4">
+                   <a href="https://www.coldstone.com.tw/contact.html" class="">
+                   <img src="coldstone/mail.svg" alt="" class="">
+                  </a>
+ 
+ 
+ 
+                 </div>
+                </div>
+  
+ 
+ 
+ 
+ 
+   </div> 
+</div>
+ 
+     </class>
+       <div class="container">
+       <div class="row ">
+     
+      <div class="col-12  col-md-6 photo1 mt-4 ">
+       <a href="https://www.coldstone.com.tw/news/news_detail.aspx?id=122" class="">
+        <img src="coldstone/20210224_084223_BD17A_1.jpg" alt="" class="">
+      </a>
+      </div>
+      <div class="col-12  col-md-6 photo2 mt-4">
+       <a href="https://www.coldstone.com.tw/news/news_detail.aspx?id=121" class="">
+       <img src=" coldstone/20210219_103739_M4K22_1.jpg" alt="" class="">
+      </a>
+     </div>
+   
+
+       </div>
+     </div>
+     
+    <div class=" text-center ">
+      <div class="d-flex  justify-content-center  mr-5 ">
+     <img src="coldstone/icecream01.png" alt="" width="50" height="40">
+     <h2>NEWS</h2>
+    
+   </div>
+   
+    <h3>最新消息</h3>
+    <h4>獲取 COLD STONE 優惠快訊及活動</h4>
+   
+   </div>
+ 
+ 
+ 
+   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+     <ol class="carousel-indicators">
+       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+       <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      
+       <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+       <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+     </ol>
+     <div class="carousel-inner">
+       <div class="carousel-item active">
+         <a href="https://www.coldstone.com.tw/news/news_detail.aspx?id=121" class="">
+         <img src="coldstone/20210219_103739_M4K22_1.jpg" class="d-block w-100" alt="...">
+        </a>
+       </div>
+       <div class="carousel-item">
+         <a href="https://www.coldstone.com.tw/product/icecream.html" class="">
+         <img src="coldstone/20210106_094019_66198.jpg" class="d-block w-100" alt="...">
+        </a>
+       </div>
+       <div class="carousel-item">
+         <a href="https://www.coldstone.com.tw/news/news_detail.aspx?id=123" class="">
+         <img src="coldstone/20210318_090433_8HAAD.jpg" class="d-block w-100" alt="...">
+        </a>
+       </div>
+       <div class="carousel-item">
+         <a href="https://www.coldstone.com.tw/news/news_detail.aspx?id=125" class="">
+         <img src="coldstone/20210322_082847_B8Z76.jpg" class="d-block w-100" alt="...">
+        </a>
+       </div>
+       <div class="carousel-item">
+         <a href="https://www.coldstone.com.tw/news/news_detail.aspx?id=124" class="">
+         <img src="coldstone/20210318_182039_H7589.jpg" class="d-block w-100" alt="...">
+        </a>
+       </div>
+       <div class="carousel-item">
+         <a href="https://www.coldstone.com.tw/news/news_detail.aspx?id=127" class="">
+         <img src="coldstone/20210326_111042_8313E_1.jpg" class="d-block w-100" alt="...">
+        </a>
+       </div>
+       
+     </div>
+     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+       <span class="sr-only">Previous</span>
+     </a>
+     <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+       <span class="sr-only">Next</span>
+     </a>
+   </div>
+ 
+ 
+ 
+ 
+     <div class="three text-center">
+ 
+                       <div class="d-flex  justify-content-center  pt-2 mr-5 ">
+                         <img src="coldstone/icecream02.png" alt="" width="50" height="40">
+                         <h2>MENU</h2>
+                       
+                       </div>
+             <h3>商品情報</h3>
+             <h4>探索 COLD STONE 多樣冰淇淋體驗</h4>
+             <div class="container">
+             <div class="row ">
+               <div class="col-12 col-md-6 col-xl-3  photo1  ">
+                 <a href="https://www.coldstone.com.tw/product/icecream.html" class="">
+                 <img src="coldstone/menu_icecream.jpg" alt="" class="">
+                </a>
+                 <p>Ice cream</p>
+                 <p>冰淇淋</p>
+               </div>
+     
+               <div class="col-12 col-md-6 col-xl-3  photo1 ">
+                 <a href="https://www.coldstone.com.tw/product/icecream_cake.html" class="">
+                 <img src="coldstone/menu_icecream_cake.jpg" alt="" class="">
+                </a>
+                 <p>Ice cream Cake</p>
+                 <p>冰淇淋蛋糕</p>
+               </div>
+               <div class="col-12 col-md-6 col-xl-3  photo2">
+                 <a href="https://www.coldstone.com.tw/product/drinks.html" class="">
+                <img src="coldstone/menu_drink.jpg" alt="" class="">
+              </a>
+                <p>Drinks</p>
+                <p>飲料</p>
+              </div>
+              <div class="col-12 col-md-6 col-xl-3  photo2">
+                <a href="https://www.coldstone.com.tw/product/limited.html" class="">
+               <img src="coldstone/limited.jpg" alt="" class="">
+              </a>
+               <p>Others</p>
+               <p>限定商品</p>
+             </div>
+          
+                </div>
+               </div>
+            
+ 
+           
+ 
+           </div>
+           
+         </div>
+ 
+    
+ 
+ 
+   </div>
+ 
+ </div>
+  <div class="container">
+    <div class="row ">
+                  <div class="photo3 col-12  col-lg-6">
+                    <a href="https://www.coldstone.com.tw/store/store.html" class="">
+            <img src="coldstone/20210403-1.png" alt=""width="600px">
+            </a>
+            </div>
+            <div class="photo4 col-12  col-lg-6">
+             <a href="https://www.coldstone.com.tw/about/recruit.html" class="">
+            <img src="coldstone/20210403-2.png" alt=""width="600px">
+             </a>
+            </div>
+            
+            </div>
+            
+                    </div>
+                    <div class=" text-center ">
+                    <div class="d-flex  justify-content-center mr-5">
+                    <img src="coldstone/icecream01.png" alt="" width="50" height="40">
+                    <h2>FOLLOW US</h2>
+      
+                    </div>
+      
+                    <h4>與你分享 COLD STONE 的歡樂生活</h4>
+      
+                      </div>
+      
+          <div class="container">
+            <div class="row ">
+              <div class="photo3 col-4 ">
+                <a href="https://page.line.me/coldstone?openQrModal=true" class="">
+          <img src="coldstone/line_desktop.jpg" alt=""width="400px">
+        </a>
+          </div>
+          <div class="photo4 col-4 ">
+            <a href="https://www.facebook.com/ColdStone.tw/" class="">
+          <img src="coldstone/fb_desktop.jpg" alt=""width="400px">
+          </div>
+        </a>
+          <div class="photo5 col-4 ">
+            <a href="https://www.coldstone.com.tw/member/member.html" class="">
+            <img src="coldstone/member_desktop.jpg" alt=""width="400px">
+          </a>
+            </div>
+          
+          </div>
+          
+          </div>
+ 
+                    <div class="container">
+                        <div class="row">
+                      <div class="photo6 col-12">
+                    <img src="coldstone/ig.png" alt="" width="200px" style=" display:block;margin:20px auto;">
+                    <a href="https://www.instagram.com/coldstonetw/" class="">
+                    <img src="coldstone/20210326_111042_8313E_1.jpg" alt="" width="500px" style=" display:block;margin:20px auto;">
+                    </a>
+                    </div>
+                    </div>
+                    </div>
+    
+
+                  
+                   <div class="four">
+                   <div class="row">
+ 
+                     <div class="one col-xl-4 text-center">
+                       <div class="ttt ml-5 mt-3">
+                     <p>酷聖石冰淇淋 歡樂服務專線  0800-001-677</p>
+                     <div class="copyright">
+                     <p>COPYRIGHT @ COLD STONE CREAMERY ALL RIGHTS RESERVED</p>
+                    </div>
+                     
+                     <p>隱私權政策  聯絡我們 </p> 
+                   
+                  
+                   </div>
+ 
+                     </div>
+ 
+ 
+                       <div class="two col-xl-4 ">
+                        <a href="https://www.coldstone.com.tw/index.aspx" class="">
+ 
+                       <img src="coldstone/20210403-3.png" alt="" width="250px"style=" display:block;margin:0px auto;">
+                      </a>
+ 
+                       </div>
+                    
+
+
+                
+                 <div class="five col-xl-4 mt-2 ">
+                  <div class="row coldstone03">
+                     <a href="https://www.coldstone.com.tw/news/news.html?class=yes" class="">
+                    <button type="button" class="btn btn-outline-light"style="margin:10px 10px">冰淇淋教室</button>
+                  </a>
+                   <a href="https://www.coldstone.com.tw/product/gift_certificate.html" class="">
+                    <button type="button" class="btn btn-outline-light">禮券專區</button>
+                  </a>
+                </div>
+                   
+                   
+              <div class="ttt text-center">
+             
+                <p>FOLLOW US</p>
+                <div class=" row mt-2 coldstone04">
+                  <a href="https://www.facebook.com/ColdStone.tw/" class="">
+                <img src="coldstone/0404-1.png" alt="" width="40" height="40" >
+              </a>
+               <a href="https://www.instagram.com/accounts/login/" class="">
+                <img src="coldstone/0404-2.png" alt="" width="40" height="40">
+              </a>
+              <a href="https://page.line.me/coldstone?openQrModal=true" class="">
+                <img src="coldstone/0404-3.png" alt="" width="40" height="40">
+              </a>
+              <a href="https://www.coldstone.com.tw/store/store.html" class="">
+                <img src="coldstone/0404-4.png" alt="" width="40" height="40">
+              </a>
+              </div>
+
+              </div>
+            </div>
+            
+ 
+
+
+
+
+
+
+
+
+    
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>
